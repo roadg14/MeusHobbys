@@ -1,0 +1,23 @@
+* {
+      background: aquamarine;
+      box-sizing: border-box;
+      color: black;
+}
+
+body {
+      margin: 0;
+      font-style: italic;
+
+}
+
+.cabecalho {
+      background: white;
+      border-bottom: solid 3px dodgerblue;
+      height: 80px;
+      box-sizing: content-box;
+}
+
+.menu {
+      display: inline-block;
+      float: right;
+}
