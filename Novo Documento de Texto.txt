@@ -1,0 +1,27 @@
+a {
+      background: linear-gradient(
+            transparent 0%,
+            transparent 90%,
+            #ea0215 90%,
+            #ea0215 100%
+      );
+      background-repeat: no-repeat;
+      background-size: 0% 100%;
+      background-position-x: right;
+
+      transition: background-size 300ms;
+      
+}
+
+a:hover {
+      background-size: 100% 100%;
+      background-position-x: left;
+
+////////////////////////////////////////////////////////////////////
+
+<main>
+            <div class="imagens">
+                  <img src="./img/Ferro.jpg" alt="" height="600">
+                  <img src="./img/Capitão.jpg" alt="" height="600">
+                  <img src="./img/Thor.jpg" alt="" height="600">
+            </div>
