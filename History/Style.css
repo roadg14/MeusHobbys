@@ -6,19 +6,14 @@
 
 body {
       margin: 0;
-      font-family: 'Oswald', sans-serif;
+      font-family: 'Caveat', cursive;
 
-}
-.gradient {
-      height: 100vh;
-      width: 100vw;
-      background: linear-gradient(45deg, #7720bb, #2a29d8, #4f0095, #0008b1  );
 }
 
 .cabecalho {
       background: white;
-      border-bottom: solid 5px #ec685e;
-      height: 80px;
+      border-bottom: solid 2px #ec685e;
+      height: 55px;
       box-sizing: content-box;
 }
 
@@ -26,7 +21,7 @@ body {
       display: inline-block;
       vertical-align: top;
       height: 80px;
-      padding: 25px;
+      padding: 15px;
 }
 
 .menu ul {
@@ -45,51 +40,22 @@ body {
 }
 
 .menu a {
-      padding: 15px;
+      padding: 10px;
 }
 
 .loginsenha {
       float: right;
       height: 80px;
-      padding: 25px;
-}
-
-a {
-      background: linear-gradient(
-            transparent 0%,
-            transparent 90%,
-      );
-      background-repeat: no-repeat;
-      background-size: 0% 100%;
-      background-position-x: right;
-
-      transition: background-size 1000ms;
-      
+      padding: 15px;
 }
 
 a:hover {
-      background: linear-gradient(50deg, white, #4d3099);
+      background: white;
       box-shadow: 2px 2px 1px 1px #000000;
       border-radius: 15px;
-      background-size: 100% 100%;
-      background-position-x: left;
-
 }
 
 a:active {
       box-shadow: none;
 }
 
-
-/* ---------------------------------------- */
-
-.imagens {
-      display: flex;
-      justify-content: space-around;
-      margin-top: 50px;
-}
-
-.imagens img {
-      border-radius: 40px;
-      border: solid 2px rgb(150, 73, 223);
-}

@@ -25,3 +25,31 @@ a:hover {
                   <img src="./img/Capitão.jpg" alt="" height="600">
                   <img src="./img/Thor.jpg" alt="" height="600">
             </div>
+
+
+
+a {
+      background: linear-gradient(
+            transparent 0%,
+            transparent 90%,
+      );
+      background-repeat: no-repeat;
+      background-size: 0% 100%;
+      background-position-x: right;
+
+      transition: background-size 1000ms;
+      
+}
+
+a:hover {
+      background: linear-gradient(50deg, white, #4d3099);
+      box-shadow: 2px 2px 1px 1px #000000;
+      border-radius: 15px;
+      background-size: 100% 100%;
+      background-position-x: left;
+
+}
+
+a:active {
+      box-shadow: none;
+}
