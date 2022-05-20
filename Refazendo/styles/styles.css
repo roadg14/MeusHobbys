@@ -199,6 +199,7 @@ header nav .buttons .signup {
 }
 
 .column:nth-child(2) {
+
   margin-top: 160px;
   -webkit-transition-delay: 0.2s;
           transition-delay: 0.2s;
@@ -245,3 +246,7 @@ header nav .buttons .signup {
   margin-top: 16px;
 }
 /*# sourceMappingURL=styles.css.map */
+
+
+
+
