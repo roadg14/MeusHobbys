@@ -5,14 +5,11 @@
           box-sizing: border-box;
 }
 
-*,
-button,
-input {
+* button input {
   font-family: -apple-system, Ubuntu, Arial, sans-serif;
 }
 
-*,
-li {
+* li {
   list-style: none;
 }
 
@@ -103,7 +100,7 @@ header nav .buttons button {
 }
 
 button:hover {
-  box-shadow: 1px 1px 2px 2px;
+  box-shadow: 1px 1px 1px 1px;
 }
 
 button:active {
@@ -111,7 +108,7 @@ button:active {
 }
 
 header nav .buttons .login {
-  background: #e60023;
+  background: #efefef;
 }
 
 header nav .buttons .signup {
