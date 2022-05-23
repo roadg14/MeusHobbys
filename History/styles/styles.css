@@ -16,6 +16,7 @@ li {
   list-style: none;
 }
 
+
 .animate-before {
   -webkit-transform: translateY(40px);
           transform: translateY(40px);
@@ -44,8 +45,9 @@ header {
 }
 
 header h3 {
-  color: #e60023;
-  font-size: 20px;
+  font-family: 'Satisfy', cursive;
+  color: #45aab8;
+  font-size: 40px;
   font-weight: 700;
 }
 
@@ -70,7 +72,10 @@ header nav ul li a {
 }
 
 header nav ul li a:hover {
-  text-decoration: underline;
+  text-decoration: none;
+  background: #45aab8;
+  border-radius: 24px;
+  padding: 11px 12px;
 }
 
 header nav .buttons {
@@ -97,8 +102,15 @@ header nav .buttons button {
           justify-content: center;
 }
 
+button:hover {
+  box-shadow: 1px 1px 2px 2px;
+}
+
+button:active {
+  box-shadow: none;
+}
+
 header nav .buttons .login {
-  color: #fff;
   background: #e60023;
 }
 
@@ -106,6 +118,7 @@ header nav .buttons .signup {
   margin-left: 16px;
   background: #efefef;
 }
+
 
 .heading {
   margin-top: 120px;
@@ -123,6 +136,7 @@ header nav .buttons .signup {
 }
 
 .heading .text {
+  font-family: 'Satisfy', cursive;
   font-size: 60px;
   font-weight: 600;
 }
@@ -138,10 +152,13 @@ header nav .buttons .signup {
   -webkit-transform: translateX(-50%);
           transform: translateX(-50%);
 }
+.text {
+  color: #000000;
+}
 
 .heading .wrapper .text {
   white-space: nowrap;
-  color: #e60023;
+  color: #b9030f;
   -webkit-transition-duration: 1s;
           transition-duration: 1s;
 }
@@ -163,7 +180,7 @@ header nav .buttons .signup {
 .grid {
   display: -ms-grid;
   display: grid;
-  -ms-grid-columns: (252px)[7];
+  -ms-grid-columns: (252px)[];
       grid-template-columns: repeat(7, 252px);
   max-height: 0px;
   visibility: hidden;
